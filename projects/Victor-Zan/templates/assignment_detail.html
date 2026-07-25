@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>作业详情 - 教师端</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>{{ assignment['title'] }}</h1>
+    <p><strong>题目内容：</strong>{{ assignment['content'] }}</p>
+    <p><strong>截止时间：</strong>{{ assignment['deadline'] or '不限' }}</p>
+
+    <h2>📋 学生提交列表（共 {{ submissions|length }} 份）</h2>
+
+    {% for s in submissions %}
+    <div style="border: 1px solid #ddd; padding: 12px; margin: 10px 0; border-radius: 6px;">
+        <p><strong>👨‍🎓 {{ s['student'] }}</strong>｜提交时间：{{ s['submitted_at'] }}</p>
+        <p><strong>答案：</strong>{{ s['answer'][:200] }}{% if s['answer']|length > 200 %}...{% endif %}</p>
+        
+        {% if s['status'] %}
+            <div style="background:#f9f9f9; padding:10px; margin:8px 0; border-radius:4px;">
+                <p>📌 评估状态：<strong>{{ s['status'] }}</strong> ｜ 评分：<strong>{{ s['score'] or '未评' }}</strong></p>
+                <p><strong>答案完整性：</strong>{{ s['completeness'] or '—' }}</p>
+                <p><strong>正确性判断：</strong>{{ s['correctness'] or '—' }}</p>
+                <p><strong>主要问题：</strong>{{ s['issues'] or '—' }}</p>
+                <p><strong>修改建议：</strong>{{ s['suggestions'] or '—' }}</p>
+            </div>
+            <details>
+                <summary>📄 查看完整报告</summary>
+                <pre style="background:#f5f5f5; padding:10px; white-space:pre-wrap;">{{ s['report'] }}</pre>
+            </details>
+            <a href="/review/{{ s['id'] }}">🔍 审核评估</a>
+        {% else %}
+            <a href="/evaluate/{{ s['id'] }}">🤖 生成 AI 评估</a>
+        {% endif %}
+
+    </div>
+    {% else %}
+        <p>暂无学生提交。</p>
+    {% endfor %}
+
+    <a href="/summary">← 返回汇总</a>
+</body>
+</html>

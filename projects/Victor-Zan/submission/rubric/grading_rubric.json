@@ -1,0 +1,56 @@
+{
+  "rubric_id": "CSC3100-A1-2026",
+  "assignment": "LeetCode 118 - Pascal's Triangle",
+  "total_points": 100,
+  "code": {
+    "points": 50,
+    "test_count": 20,
+    "points_per_test": 2.5,
+    "public_test_count": 3,
+    "hidden_test_count": 17
+  },
+  "report": {
+    "points": 50,
+    "criteria": [
+      {
+        "id": "algorithm_clarity",
+        "label": "Algorithm clarity",
+        "points": 15
+      },
+      {
+        "id": "correctness_reasoning",
+        "label": "Correctness reasoning",
+        "points": 10
+      },
+      {
+        "id": "complexity_analysis",
+        "label": "Complexity analysis",
+        "points": 10
+      },
+      {
+        "id": "implementation_examples",
+        "label": "Implementation and examples",
+        "points": 10
+      },
+      {
+        "id": "presentation_originality",
+        "label": "Presentation and originality",
+        "points": 5
+      }
+    ],
+    "ai_risk_policy": {
+      "low": "No special action.",
+      "medium": "Show evidence and suggest teacher review.",
+      "high": "Require teacher review; do not automatically deduct marks."
+    },
+    "criterion_scoring_bands": {
+      "full": "90-100% of criterion marks: complete, accurate, and supported by evidence.",
+      "substantial": "70-89%: mostly correct with minor omissions.",
+      "partial": "40-69%: relevant but incomplete or weakly supported.",
+      "minimal": "1-39%: limited evidence or major conceptual problems.",
+      "none": "0%: absent, irrelevant, or unverifiable."
+    }
+  },
+  "format_policy": "Malformed submissions are quarantined and require teacher approval before grading.",
+  "late_policy": "Late submissions are flagged; any penalty is decided by the teacher."
+}

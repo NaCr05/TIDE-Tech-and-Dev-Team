@@ -1,0 +1,312 @@
+{
+  "scenario_id": "CSC3100-A1-MVP",
+  "course": "CSC3100 Data Structures",
+  "assignment": "LeetCode 118 - Pascal's Triangle",
+  "deadline": "2026-06-30T23:59:00+08:00",
+  "registered_students": 20,
+  "on_time_submissions": 18,
+  "uploaded_submissions": 19,
+  "format_valid_submissions": 16,
+  "on_time_format_valid_submissions": 15,
+  "format_invalid_submissions": 3,
+  "late_submissions": 1,
+  "missing_submissions": 1,
+  "students": [
+    {
+      "student_id": "120010001",
+      "name": "Alex Chen",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-28T18:20:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "excellent",
+      "archive": "students/submitted/120010001_AlexChen_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010002",
+      "name": "Bella Wong",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-29T09:10:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "excellent",
+      "archive": "students/submitted/120010002_BellaWong_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010003",
+      "name": "Chris Li",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-29T14:15:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "excellent",
+      "archive": "students/submitted/120010003_ChrisLi_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010004",
+      "name": "Diana Zhang",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T11:40:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "excellent",
+      "archive": "students/submitted/120010004_DianaZhang_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010005",
+      "name": "Ethan Liu",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T12:05:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "code_correct_report_average",
+      "archive": "students/submitted/120010005_EthanLiu_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010006",
+      "name": "Fiona Yang",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T13:00:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "code_correct_report_average",
+      "archive": "students/submitted/120010006_FionaYang_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010007",
+      "name": "George Xu",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T15:10:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "code_correct_report_average",
+      "archive": "students/submitted/120010007_GeorgeXu_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010008",
+      "name": "Helen Sun",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T16:45:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "code_correct_report_average",
+      "archive": "students/submitted/120010008_HelenSun_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010009",
+      "name": "Ian Zhou",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T16:55:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "code_correct_report_average",
+      "archive": "students/submitted/120010009_IanZhou_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010010",
+      "name": "Julia Wu",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T17:20:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "code_partial_report_good",
+      "archive": "students/submitted/120010010_JuliaWu_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010011",
+      "name": "Kevin Ma",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T18:05:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "code_partial_report_good",
+      "archive": "students/submitted/120010011_KevinMa_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010012",
+      "name": "Linda Gao",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T19:30:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "code_partial_report_good",
+      "archive": "students/submitted/120010012_LindaGao_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010013",
+      "name": "Michael Hu",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T20:15:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "code_partial_report_good",
+      "archive": "students/submitted/120010013_MichaelHu_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010014",
+      "name": "Nina Tang",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T21:10:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "average",
+      "archive": "students/submitted/120010014_NinaTang_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010015",
+      "name": "Oscar Lin",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-06-30T22:25:00+08:00",
+      "is_late": false,
+      "format_issue": null,
+      "profile": "average",
+      "archive": "students/submitted/120010015_OscarLin_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010016",
+      "name": "Phoebe He",
+      "submission_state": "submitted",
+      "format_state": "invalid",
+      "submitted_at": "2026-06-30T20:40:00+08:00",
+      "is_late": false,
+      "format_issue": "archive_name",
+      "profile": "format_invalid",
+      "archive": "students/invalid/120010016_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010017",
+      "name": "Ryan Deng",
+      "submission_state": "submitted",
+      "format_state": "invalid",
+      "submitted_at": "2026-06-30T21:50:00+08:00",
+      "is_late": false,
+      "format_issue": "missing_report",
+      "profile": "format_invalid",
+      "archive": "students/invalid/120010017_RyanDeng_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt"
+      ]
+    },
+    {
+      "student_id": "120010018",
+      "name": "Sophia Luo",
+      "submission_state": "submitted",
+      "format_state": "invalid",
+      "submitted_at": "2026-06-30T22:45:00+08:00",
+      "is_late": false,
+      "format_issue": "wrong_code_filename",
+      "profile": "format_invalid",
+      "archive": "students/invalid/120010018_SophiaLuo_Assignment1.zip",
+      "archive_contents": [
+        "solution.py",
+        "报告.pdf"
+      ]
+    },
+    {
+      "student_id": "120010019",
+      "name": "Thomas Qian",
+      "submission_state": "missing",
+      "format_state": "missing",
+      "submitted_at": null,
+      "is_late": false,
+      "format_issue": null,
+      "profile": "no_submission",
+      "archive": null,
+      "archive_contents": []
+    },
+    {
+      "student_id": "120010020",
+      "name": "Vicky Fan",
+      "submission_state": "submitted",
+      "format_state": "valid",
+      "submitted_at": "2026-07-01T09:15:00+08:00",
+      "is_late": true,
+      "format_issue": null,
+      "profile": "late_valid",
+      "archive": "students/submitted/120010020_VickyFan_Assignment1.zip",
+      "archive_contents": [
+        "代码实现.txt",
+        "报告.pdf"
+      ]
+    }
+  ]
+}

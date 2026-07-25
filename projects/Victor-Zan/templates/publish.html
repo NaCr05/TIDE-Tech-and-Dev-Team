@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>发布作业 - 教师端</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>📝 发布新作业</h1>
+
+    <form method="POST" action="/publish">
+        <label>作业标题：</label>
+        <input type="text" name="title" required>
+
+        <label>题目内容：</label>
+        <textarea name="content" rows="10" required></textarea>
+
+        <label>截止时间：</label>
+        <input type="datetime-local" name="deadline">
+
+        <button type="submit">发布作业</button>
+    </form>
+
+    <a href="/">← 返回首页</a>
+</body>
+</html>

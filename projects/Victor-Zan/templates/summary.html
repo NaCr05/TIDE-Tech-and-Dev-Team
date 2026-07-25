@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>提交汇总 - 教师端</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>📊 作业提交汇总</h1>
+
+    {% for hw in homework %}
+    <div style="border: 1px solid #ddd; padding: 15px; margin: 15px 0; border-radius: 6px;">
+        <h3>{{ hw['title'] }}</h3>
+        <p>截止时间：{{ hw['deadline'] or '不限' }}｜共 {{ hw['count'] }} 人提交</p>
+        <a href="/summary/{{ hw['id'] }}">查看详情 →</a>
+    </div>
+    {% else %}
+        <p>还没有发布任何作业。</p>
+    {% endfor %}
+
+    <a href="/">← 返回首页</a>
+</body>
+</html>

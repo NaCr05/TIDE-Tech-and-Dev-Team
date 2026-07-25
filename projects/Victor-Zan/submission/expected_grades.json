@@ -1,0 +1,288 @@
+[
+  {
+    "student_id": "120010001",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 47,
+    "report_summary": "Simulated rubric assessment awarded 47 of 50 report marks.",
+    "suggested_total": 97.0,
+    "ai_writing_risk": "low",
+    "simulated_ai_writing_probability": 0.18,
+    "requires_teacher_review": false,
+    "review_reasons": []
+  },
+  {
+    "student_id": "120010002",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 46,
+    "report_summary": "Simulated rubric assessment awarded 46 of 50 report marks.",
+    "suggested_total": 96.0,
+    "ai_writing_risk": "low",
+    "simulated_ai_writing_probability": 0.18,
+    "requires_teacher_review": false,
+    "review_reasons": []
+  },
+  {
+    "student_id": "120010003",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 48,
+    "report_summary": "Simulated rubric assessment awarded 48 of 50 report marks.",
+    "suggested_total": 98.0,
+    "ai_writing_risk": "medium",
+    "simulated_ai_writing_probability": 0.56,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "ai_writing_risk"
+    ]
+  },
+  {
+    "student_id": "120010004",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 45,
+    "report_summary": "Simulated rubric assessment awarded 45 of 50 report marks.",
+    "suggested_total": 95.0,
+    "ai_writing_risk": "low",
+    "simulated_ai_writing_probability": 0.18,
+    "requires_teacher_review": false,
+    "review_reasons": []
+  },
+  {
+    "student_id": "120010005",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 35,
+    "report_summary": "Simulated rubric assessment awarded 35 of 50 report marks.",
+    "suggested_total": 85.0,
+    "ai_writing_risk": "medium",
+    "simulated_ai_writing_probability": 0.56,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "ai_writing_risk"
+    ]
+  },
+  {
+    "student_id": "120010006",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 33,
+    "report_summary": "Simulated rubric assessment awarded 33 of 50 report marks.",
+    "suggested_total": 83.0,
+    "ai_writing_risk": "high",
+    "simulated_ai_writing_probability": 0.84,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "ai_writing_risk"
+    ]
+  },
+  {
+    "student_id": "120010007",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 37,
+    "report_summary": "Simulated rubric assessment awarded 37 of 50 report marks.",
+    "suggested_total": 87.0,
+    "ai_writing_risk": "low",
+    "simulated_ai_writing_probability": 0.18,
+    "requires_teacher_review": false,
+    "review_reasons": []
+  },
+  {
+    "student_id": "120010008",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 34,
+    "report_summary": "Simulated rubric assessment awarded 34 of 50 report marks.",
+    "suggested_total": 84.0,
+    "ai_writing_risk": "medium",
+    "simulated_ai_writing_probability": 0.56,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "ai_writing_risk"
+    ]
+  },
+  {
+    "student_id": "120010009",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 36,
+    "report_summary": "Simulated rubric assessment awarded 36 of 50 report marks.",
+    "suggested_total": 86.0,
+    "ai_writing_risk": "low",
+    "simulated_ai_writing_probability": 0.18,
+    "requires_teacher_review": false,
+    "review_reasons": []
+  },
+  {
+    "student_id": "120010010",
+    "code_tests_passed": 5,
+    "code_tests_total": 20,
+    "code_score": 12.5,
+    "report_score": 43,
+    "report_summary": "Simulated rubric assessment awarded 43 of 50 report marks.",
+    "suggested_total": 55.5,
+    "ai_writing_risk": "low",
+    "simulated_ai_writing_probability": 0.18,
+    "requires_teacher_review": false,
+    "review_reasons": []
+  },
+  {
+    "student_id": "120010011",
+    "code_tests_passed": 1,
+    "code_tests_total": 20,
+    "code_score": 2.5,
+    "report_score": 44,
+    "report_summary": "Simulated rubric assessment awarded 44 of 50 report marks.",
+    "suggested_total": 46.5,
+    "ai_writing_risk": "medium",
+    "simulated_ai_writing_probability": 0.56,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "ai_writing_risk"
+    ]
+  },
+  {
+    "student_id": "120010012",
+    "code_tests_passed": 0,
+    "code_tests_total": 20,
+    "code_score": 0.0,
+    "report_score": 42,
+    "report_summary": "Simulated rubric assessment awarded 42 of 50 report marks.",
+    "suggested_total": 42.0,
+    "ai_writing_risk": "low",
+    "simulated_ai_writing_probability": 0.18,
+    "requires_teacher_review": false,
+    "review_reasons": []
+  },
+  {
+    "student_id": "120010013",
+    "code_tests_passed": 3,
+    "code_tests_total": 20,
+    "code_score": 7.5,
+    "report_score": 41,
+    "report_summary": "Simulated rubric assessment awarded 41 of 50 report marks.",
+    "suggested_total": 48.5,
+    "ai_writing_risk": "high",
+    "simulated_ai_writing_probability": 0.84,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "ai_writing_risk"
+    ]
+  },
+  {
+    "student_id": "120010014",
+    "code_tests_passed": 5,
+    "code_tests_total": 20,
+    "code_score": 12.5,
+    "report_score": 31,
+    "report_summary": "Simulated rubric assessment awarded 31 of 50 report marks.",
+    "suggested_total": 43.5,
+    "ai_writing_risk": "medium",
+    "simulated_ai_writing_probability": 0.56,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "ai_writing_risk"
+    ]
+  },
+  {
+    "student_id": "120010015",
+    "code_tests_passed": 1,
+    "code_tests_total": 20,
+    "code_score": 2.5,
+    "report_score": 29,
+    "report_summary": "Simulated rubric assessment awarded 29 of 50 report marks.",
+    "suggested_total": 31.5,
+    "ai_writing_risk": "low",
+    "simulated_ai_writing_probability": 0.18,
+    "requires_teacher_review": false,
+    "review_reasons": []
+  },
+  {
+    "student_id": "120010016",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 39,
+    "report_summary": "Simulated rubric assessment awarded 39 of 50 report marks.",
+    "suggested_total": 89.0,
+    "ai_writing_risk": "low",
+    "simulated_ai_writing_probability": 0.18,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "submission_format"
+    ]
+  },
+  {
+    "student_id": "120010017",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 0,
+    "report_summary": "No report was available for assessment.",
+    "suggested_total": 50.0,
+    "ai_writing_risk": "unknown",
+    "simulated_ai_writing_probability": null,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "submission_format"
+    ]
+  },
+  {
+    "student_id": "120010018",
+    "code_tests_passed": 5,
+    "code_tests_total": 20,
+    "code_score": 12.5,
+    "report_score": 38,
+    "report_summary": "Simulated rubric assessment awarded 38 of 50 report marks.",
+    "suggested_total": 50.5,
+    "ai_writing_risk": "medium",
+    "simulated_ai_writing_probability": 0.56,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "submission_format",
+      "ai_writing_risk"
+    ]
+  },
+  {
+    "student_id": "120010019",
+    "code_tests_passed": 0,
+    "code_tests_total": 20,
+    "code_score": 0.0,
+    "report_score": 0,
+    "report_summary": "No report was available for assessment.",
+    "suggested_total": 0.0,
+    "ai_writing_risk": "unknown",
+    "simulated_ai_writing_probability": null,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "submission_format"
+    ]
+  },
+  {
+    "student_id": "120010020",
+    "code_tests_passed": 20,
+    "code_tests_total": 20,
+    "code_score": 50.0,
+    "report_score": 34,
+    "report_summary": "Simulated rubric assessment awarded 34 of 50 report marks.",
+    "suggested_total": 84.0,
+    "ai_writing_risk": "medium",
+    "simulated_ai_writing_probability": 0.56,
+    "requires_teacher_review": true,
+    "review_reasons": [
+      "ai_writing_risk",
+      "late_submission"
+    ]
+  }
+]
