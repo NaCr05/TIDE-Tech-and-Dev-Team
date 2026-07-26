@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>提交作业 - 学生端</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>📤 提交作业</h1>
+
+    {% if success %}
+        <p style="color: green; font-weight: bold;">✅ 提交成功！</p>
+    {% endif %}
+
+    {% if assignments %}
+    <form method="POST" action="/submit">
+        <label>选择作业：</label>
+        <select name="assignment_id" required>
+            <option value="">-- 请选择 --</option>
+            {% for a in assignments %}
+            <option value="{{ a['id'] }}">
+                {{ a['title'] }}（截止：{{ a['deadline'] or '不限' }}）
+            </option>
+            {% endfor %}
+        </select>
+
+        <label>你的用户名：</label>
+        <input type="text" name="student" required placeholder="如 student1">
+
+        <label>你的答案：</label>
+        <textarea name="answer" rows="12" required placeholder="请输入你的答案..."></textarea>
+
+        <button type="submit">提交作业</button>
+    </form>
+    {% else %}
+        <p>目前没有可提交的作业。</p>
+    {% endif %}
+
+    <a href="/">← 返回首页</a>
+</body>
+</html>
