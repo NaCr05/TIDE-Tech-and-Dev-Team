@@ -1,0 +1,35 @@
+.env
+
+backend/node_modules/
+backend/dist/
+backend/src/generated/prisma/
+
+frontend/node_modules/
+frontend/dist/
+
+agent/.venv/
+agent/__pycache__/
+agent/**/*.pyc
+
+.venv/
+__pycache__/
+*.pyc
+
+*.log
+.DS_Store
+
+tmp/
+
+# 本地会话交接与生成型演示产物不属于正式项目交付内容。
+CURRENT_SESSION_HANDOFF.md
+TIDE最终验收大作业_交接文档.md
+output/
+
+# Vite/React 初始模板遗留图片，当前页面未引用。
+frontend/src/assets/hero.png
+frontend/src/assets/react.svg
+frontend/src/assets/vite.svg
+
+# 管理者提供的原始学生数据含完整名单与个人提交，仅作本地验收输入。
+# 项目只提交导入与评分逻辑，不复制完整名单、PDF 和个人压缩包。
+submission/
